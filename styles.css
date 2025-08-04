@@ -1,0 +1,45 @@
+/* Basic styling for the portfolio */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  background: #f0f2f5;
+  color: #333;
+}
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+h1 {
+  margin-bottom: 0.2rem;
+}
+.repo-list {
+  list-style: none;
+  padding: 0;
+}
+.repo-item {
+  background: white;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+.repo-item:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+.repo-item a {
+  font-weight: bold;
+  color: #0366d6;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.repo-item a:hover {
+  text-decoration: underline;
+}
+.repo-desc {
+  margin-top: 0.3rem;
+  color: #586069;
+  font-style: italic;
+}
