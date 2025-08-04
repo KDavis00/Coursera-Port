@@ -7,37 +7,67 @@ body {
   background: #f0f2f5;
   color: #333;
 }
+
 header {
   text-align: center;
   margin-bottom: 2rem;
 }
+
 h1 {
   margin-bottom: 0.2rem;
 }
+
+/* About Me section */
+.about-me {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-me h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #111;
+}
+
+.about-me p {
+  margin-top: 0.5rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Repository list */
 .repo-list {
   list-style: none;
   padding: 0;
 }
+
 .repo-item {
   background: white;
   margin-bottom: 1rem;
   padding: 1rem;
   border-radius: 6px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease;
 }
+
 .repo-item:hover {
-  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
+
 .repo-item a {
   font-weight: bold;
   color: #0366d6;
   text-decoration: none;
   font-size: 1.2rem;
 }
+
 .repo-item a:hover {
   text-decoration: underline;
 }
+
 .repo-desc {
   margin-top: 0.3rem;
   color: #586069;
